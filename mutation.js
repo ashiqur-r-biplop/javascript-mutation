@@ -1,3 +1,4 @@
+import { produce } from "immer";
 let demonSlayers = [
   "Tanjiro",
   "Rengoku",
@@ -8,6 +9,9 @@ let demonSlayers = [
 ];
 
 // demonSlayers.push("Zenetsu");
-const hashiras =  ['Zenetsu', "Inoske", ...demonSlayers]
+
+const nextState = produce(demonSlayers, (draft) => {
+  draft.push("Zenetsu");
+});
 console.log(demonSlayers);
-console.log(hashiras);
+console.log(nextState);
