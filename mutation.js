@@ -8,5 +8,6 @@ let demonSlayers = [
 ];
 
 // demonSlayers.push("Zenetsu");
-demonSlayers =  ['Zenetsu', "Inoske", ...demonSlayers]
+const hashiras =  ['Zenetsu', "Inoske", ...demonSlayers]
 console.log(demonSlayers);
+console.log(hashiras);
