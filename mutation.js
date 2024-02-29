@@ -8,7 +8,7 @@ let demonSlayers = [
   "Shinobu",
 ];
 
-// demonSlayers.push("Zenetsu");
+demonSlayers.push("Zenetsu");
 
 const nextState = produce(demonSlayers, (draft) => {
   draft.push("Zenetsu");
