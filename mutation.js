@@ -1,7 +1,7 @@
 import { produce } from "immer";
 let demonSlayers = [
   "Tanjiro",
-  "Rengoku",
+  "Rengoku", 
   "Tengen", 
   "Opennai",
   "Mitsuri",
